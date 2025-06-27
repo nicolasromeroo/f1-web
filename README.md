@@ -4,18 +4,16 @@
 - React
 - Node.js + Express
 - MongoDB
-- Joi (validación)  
-- JWT (autenticación)
-- Axios (para hacer peticiones)
-- Nodemon (para reiniciar el servidor)
-- Bcrypt (para encriptar contraseñas)
-- CORS (para permitir peticiones cross-origin)
-- dotenv (para variables de entorno)
-- Express (para crear el servidor)
-- Mongoose (para interactuar con MongoDB)
-- Bootstrap (estilos)
-- Multer (para subir imágenes)
-- API externa de resultados (Jolpica)
+- Joi 
+- JWT 
+- Axios 
+- Nodemon 
+- Bcrypt 
+- CORS
+- dotenv
+- Express
+- Mongoose
+- Bootstrap 
 
 ---
 
