@@ -21,21 +21,21 @@
 
 ## Screenshots 
 
-### Página de Inicio
+### Dashboard
+![Admin](./screen/f1app3.png)
+
+### Vista de pilotos
 ![Inicio](./screen/f1app.png)
 
-### Panel de Drafts
+### Vista de Drafts
 ![Draft](./screen/f1app2.png)
-
-### Panel de Admin para importar resultados
-![Admin](./screen/f1app3.png)
 
 ---
 
 ## Instalación local
 
 ```bash
-git clone https://github.com/tu-usuario/f1-app.git
+git clone https://github.com/nicolasromeroo/f1-app.git
 cd f1-app
 cd backend && npm install && npm start
 cd frontend && npm install && npm run dev
