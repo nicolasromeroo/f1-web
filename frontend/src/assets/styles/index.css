@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'F1';
+    src: url('/fonts/ElectricFormula-JpmEj.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.display-5,
+.display-6,
+.f1-title {
+    font-family: 'F1', Arial, sans-serif !important;
+    letter-spacing: 1px !important;
+}
+
+h1,
+.h1 {
+    font-size: 2.5rem;
+}
+
+h2,
+.h2 {
+    font-size: 2rem;
+}
+
+h3,
+.h3 {
+    font-size: 1.75rem;
+}
+
+h4,
+.h4 {
+    font-size: 1.5rem;
+}
+
+h5,
+.h5 {
+    font-size: 1.25rem;
+}
+
+h6,
+.h6 {
+    font-size: 1rem;
+}
+
+.f1-banner {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(../../../public/img/w-ferrari.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    overflow: hidden;
+}
+
+.dash-title {
+    font-size: 50px;
+    letter-spacing: 5px !important;
+}
+
+.f1-logo {
+    width: auto;
+    height: auto;
+}
+
+.lead,
+.subtitle {
+    font-family: 'F1', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+.badge {
+    font-family: 'F1', Arial, sans-serif;
+    letter-spacing: 1px;
+}

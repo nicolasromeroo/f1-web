@@ -1,0 +1,31 @@
+.results-badge {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #666;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.badge-text {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: #ff6b6b;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.races-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('/img/calendario-banner.jpg') !important;
+    background-size: cover;
+    background-position-y: -150px !important;
+    z-index: 0;
+}

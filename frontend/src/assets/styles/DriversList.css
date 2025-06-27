@@ -1,0 +1,108 @@
+.drivers-page {
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.drivers-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url('/img/driver-banner.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+    padding: 100px 0;
+    margin-bottom: 40px;
+}
+
+.drivers-banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 100%);
+}
+
+.driver-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none !important;
+    overflow: hidden;
+    position: relative;
+}
+
+.driver-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2) !important;
+}
+
+.team-badge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+}
+
+.driver-image {
+    transition: transform 0.3s ease;
+    height: 220px;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.driver-card:hover .driver-image {
+    transform: scale(1.05);
+}
+
+.btn-favorite {
+    transition: all 0.3s ease;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.driver-card {
+    animation: fadeIn 0.5s ease-out forwards;
+    opacity: 0;
+}
+
+.driver-card:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.driver-card:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.driver-card:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+@media (max-width: 768px) {
+    .drivers-banner {
+        padding: 60px 0;
+    }
+
+    .drivers-banner h1 {
+        font-size: 2.5rem;
+    }
+
+    .driver-card {
+        margin-bottom: 20px;
+    }
+}

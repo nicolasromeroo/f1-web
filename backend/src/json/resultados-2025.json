@@ -1,0 +1,40 @@
+[
+    {
+        "round": 1,
+        "results": [
+            {
+                "driverId": "max-verstappen",
+                "driverName": "Max Verstappen",
+                "team": "Red Bull",
+                "position": 1,
+                "points": 25
+            },
+            {
+                "driverId": "lando-norris",
+                "driverName": "Lando Norris",
+                "team": "McLaren",
+                "position": 2,
+                "points": 18
+            }
+        ]
+    },
+    {
+        "round": 2,
+        "results": [
+            {
+                "driverId": "charles-leclerc",
+                "driverName": "Charles Leclerc",
+                "team": "Ferrari",
+                "position": 1,
+                "points": 25
+            },
+            {
+                "driverId": "max-verstappen",
+                "driverName": "Max Verstappen",
+                "team": "Red Bull",
+                "position": 2,
+                "points": 18
+            }
+        ]
+    }
+]
