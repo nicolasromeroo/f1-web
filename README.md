@@ -27,7 +27,7 @@
 ### Vista de pilotos
 ![Inicio](./screen/f1app.png)
 
-### Vista de Drafts
+### Vista de seleccion de pilotos para competir
 ![Draft](./screen/f1app2.png)
 
 ---
