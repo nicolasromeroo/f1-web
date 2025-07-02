@@ -11,7 +11,6 @@
 - Bcrypt 
 - CORS
 - dotenv
-- Express
 - Mongoose
 - Bootstrap 
 
